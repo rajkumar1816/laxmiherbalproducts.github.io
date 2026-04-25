@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakshmi Herbal Products - Pure & Natural Herbal Care</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Floating Leaves Background -->
+    <div class="floating-leaf" style="animation-delay: 0s;"></div>
+    <div class="floating-leaf" style="animation-delay: 5s;"></div>
+    <div class="floating-leaf" style="animation-delay: 10s;"></div>
+    <div class="floating-leaf" style="animation-delay: 15s;"></div>
+    <div class="floating-leaf" style="animation-delay: 20s;"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <i class="fas fa-leaf"></i>
+                    Lakshmi Herbal
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#products" class="nav-link">Products</a></li>
+                    <li><a href="#ingredients" class="nav-link">Ingredients</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li><a href="admin.html" class="nav-link admin-btn">Admin</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Pure & Natural Herbal Care</h1>
+                <p class="hero-subtitle">Herbal Hair Oil & Organic Powders</p>
+                <div class="highlight">
+                    <i class="fas fa-heart"></i>
+                    <span>Homemade With Love – Where Nature Heals Your Hair</span>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary">View Products</a>
+                    <a href="https://wa.me/919876543210" class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Order Now
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/product-promo-1.jpg" alt="Lakshmi Herbal Products - Pure Herbal Haircare" class="hero-product-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products section">
+        <div class="container">
+            <h2 class="section-title">Our Products</h2>
+            <div class="products-grid" id="products-grid">
+                <!-- Products loaded dynamically via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing section">
+        <div class="container">
+            <h2 class="section-title">Our Price List</h2>
+            <p class="section-subtitle">Premium Quality at Affordable Prices</p>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-item">
+                        <i class="fas fa-droplet"></i>
+                        <h3>Herbal Hair Oil</h3>
+                        <p class="quantity">100 ml</p>
+                        <p class="price">₹189/-</p>
+                    </div>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-item featured">
+                        <i class="fas fa-droplet"></i>
+                        <h3>Herbal Hair Oil</h3>
+                        <p class="quantity">200 ml</p>
+                        <p class="price">₹349/-</p>
+                    </div>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-item">
+                        <i class="fas fa-powder"></i>
+                        <h3>Organic Hair Powder</h3>
+                        <p class="quantity">100g</p>
+                        <p class="price">₹129/-</p>
+                    </div>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-item">
+                        <i class="fas fa-box"></i>
+                        <h3>Combo Pack</h3>
+                        <p class="quantity">Oil + Powder</p>
+                        <p class="price">₹349/-</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pricing-cta">
+                <p><strong>Cash on Delivery Available</strong></p>
+                <a href="https://wa.me/919876543210" class="btn btn-primary" target="_blank">
+                    <i class="fab fa-whatsapp"></i> DM to Order
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits section">
+        <div class="container">
+            <h2 class="section-title">Why Choose Lakshmi Herbal Oil?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <i class="fas fa-seedling"></i>
+                    <h3>Boosts Hair Growth</h3>
+                    <p>Powerful herbal blend stimulates follicles for faster, healthier growth</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Controls Hair Fall</h3>
+                    <p>Strengthens roots and reduces hair loss significantly</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-spa"></i>
+                    <h3>Prevents Dandruff</h3>
+                    <p>Anti-fungal properties keep scalp clean and healthy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ingredients Section -->
+    <section id="ingredients" class="ingredients section">
+        <div class="container">
+            <h2 class="section-title">25+ Natural Ingredients</h2>
+            <p class="section-subtitle">Made with Ayurvedic Wisdom for Strong & Healthy Hair</p>
+            <div class="ingredients-grid">
+                <div class="ingredient-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Coconut Oil</h3>
+                    <p>Deep nourishment, prevents hair breakage</p>
+                </div>
+                <div class="ingredient-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Sesame Oil</h3>
+                    <p>Strengthens follicles, reduces dandruff</p>
+                </div>
+                <div class="ingredient-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Mustard Oil</h3>
+                    <p>Antibacterial, improves scalp circulation</p>
+                </div>
+                <div class="ingredient-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Castor Oil</h3>
+                    <p>Boosts hair growth & thickness</p>
+                </div>
+                <div class="ingredient-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Almond Oil</h3>
+                    <p>Makes hair soft, reduces frizz</p>
+                </div>
+                <div class="ingredient-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Coriander Seeds</h3>
+                    <p>Strengthens roots</p>
+                </div>
+                <div class="ingredient-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Neem</h3>
+                    <p>Treats dandruff, fungal infections</p>
+                </div>
+                <div class="ingredient-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Bhringraj</h3>
+                    <p>Famous for boosting hair growth</p>
+                </div>
+                <div class="ingredient-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Mint Leaves</h3>
+                    <p>Cools scalp, increases blood flow</p>
+                </div>
+                <div class="ingredient-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Guava Leaves</h3>
+                    <p>Controls hair fall</p>
+                </div>
+                <div class="ingredient-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Henna Leaves</h3>
+                    <p>Conditions hair naturally</p>
+                </div>
+                <div class="ingredient-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Hibiscus</h3>
+                    <p>Makes hair shiny & thick</p>
+                </div>
+                <div class="ingredient-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Amla Powder</h3>
+                    <p>Rich in Vitamin C, stops hair fall</p>
+                </div>
+                <div class="ingredient-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Brahmi</h3>
+                    <p>Strengthens roots, reduces stress hair fall</p>
+                </div>
+                <div class="ingredient-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Tulsi</h3>
+                    <p>Reduces dandruff & itching</p>
+                </div>
+                <div class="ingredient-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Ratanjot</h3>
+                    <p>Natural color, improves scalp health</p>
+                </div>
+                <div class="ingredient-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Almond</h3>
+                    <p>Softens hair naturally</p>
+                </div>
+                <div class="ingredient-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Lotus</h3>
+                    <p>Smooth & soft finish</p>
+                </div>
+                <div class="ingredient-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Rosemary</h3>
+                    <p>Stimulates hair growth</p>
+                </div>
+                <div class="ingredient-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Onion</h3>
+                    <p>Strong root strengthening, prevents thinning</p>
+                </div>
+                <div class="ingredient-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Fenugreek (Methi)</h3>
+                    <p>Stops hair fall, removes dandruff</p>
+                </div>
+                <div class="ingredient-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Curry Leaves</h3>
+                    <p>Promotes hair growth</p>
+                </div>
+                <div class="ingredient-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Black Seeds (Kalonji)</h3>
+                    <p>Improves hair thickness</p>
+                </div>
+                <div class="ingredient-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Vetiver (Vala)</h3>
+                    <p>Cools scalp, strengthens roots</p>
+                </div>
+                <div class="ingredient-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Vitamin-E</h3>
+                    <p>Repairs damaged hair</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Lakshmi Herbal Products</h2>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>100% Natural</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Chemical-Free</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Freshly Made</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Ayurveda Inspired</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="ayurveda-decoration"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Showcase Section -->
+    <section class="product-showcase section">
+        <div class="container">
+            <h2 class="section-title">Our Premium Products</h2>
+            <p class="section-subtitle">Made with 25+ Natural Ingredients for Magical Hair Growth</p>
+            <div class="showcase-grid">
+                <div class="showcase-item">
+                    <img src="images/product-showcase-1.jpg" alt="Tonics & Treasures for Strong & Healthy Hair" class="showcase-img">
+                </div>
+                <div class="showcase-item">
+                    <img src="images/product-showcase-2.jpg" alt="Tradition Bottled with Love - Herbal Hair Oil" class="showcase-img">
+                </div>
+                <div class="showcase-item">
+                    <img src="images/product-showcase-3.jpg" alt="Lakshmi Herbal Products - Pure & Natural Herbal Care" class="showcase-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <a href="https://wa.me/919876543210" class="contact-link">+91 98765 43210</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:lakshmiherbal@gmail.com" class="contact-link">lakshmiherbal@gmail.com</a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-leaf"></i>
+                    Lakshmi Herbal
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+                <p>&copy; 2024 Lakshmi Herbal Products. Made with ❤️ from nature.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
